@@ -9,6 +9,4 @@ test_requires 'YAML';
 tests 't/*.t';
 author_tests 'xt';
 use_test_base;
-auto_include;
-auto_install;
 WriteAll;
