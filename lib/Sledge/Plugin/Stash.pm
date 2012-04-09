@@ -1,8 +1,9 @@
 package Sledge::Plugin::Stash;
 use strict;
 use warnings;
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 use Carp;
+use 5.008001;
 
 sub import {
     my $pkg = caller(0);
@@ -65,7 +66,7 @@ No bugs have been reported.
 
 =head1 AUTHOR
 
-Tokuhiro Matsuno  C<< <tokuhiro __at__ mobilefactory.jp> >>
+Tokuhiro Matsuno  C<< <tokuhirom @at gmail.com> >>
 
 =head1 LICENCE AND COPYRIGHT
 
